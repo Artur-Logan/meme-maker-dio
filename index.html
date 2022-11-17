@@ -14,16 +14,40 @@
 
         <div class="app">
             <div class="logo">
-                <img src="" alt="">
+                <img src="./imagens/dio-imagem2.jpg" alt="">
             </div>
 
             <div class="app-image">
+                <textarea 
+                    name=""
+                    class="text-box"
+                    placeholder="Digite seu meme."
+                    aria-multiline="true"
+                ></textarea>
+                <div class="display-image"></div>
+                
+                <textarea 
+                    name=""
+                    class="text-box"
+                    placeholder="Digite seu meme."
+                    aria-multiline="true"
+                ></textarea>
             </div>
 
             <div class="app-photo-picker">
+                <select id="memelist">
+                    <option value = "1">PLUS ULTRA!!!!!!</option>
+                </select>
+
+                <input 
+                 type="file"
+                 id="image-input"
+                 accept="image/jpeg, image/png, image/jpg"
+                 >
             </div>
 
             <div class="download">
+                <button id="btn-download">DOWNLOAD</button>
             </div>
         </div>
 
